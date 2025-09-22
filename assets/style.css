@@ -39,6 +39,7 @@ border-color: white;
 background-color: black;
 border-style: outset;
 border-radius: 30px;
+
 }
 
 #sidebar {
@@ -68,10 +69,20 @@ border-radius: 30px;
 }
 
 #down {
-    text-align: center;
     background-color: rgb(247, 87, 87);
     border-radius: 20px;
     padding: 10px;
     font-weight: 500;
+    width: fit-content;
+}
+
+#bordercss {
+display: block;
+color: black;
+background-color: black;
+border-color: white;
+border-radius: 20px;
+border-style: outset;
+justify-items: center;
 }
 
